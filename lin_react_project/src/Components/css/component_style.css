@@ -1,0 +1,73 @@
+/*Header CSS*/
+header
+{
+    background-color: white;
+    margin-bottom:0;
+    margin-left: -1%;
+    width:102%;
+}
+
+header a{
+    color:black;
+}
+
+#headerOpt, #footerOpt
+{
+    list-style-type: none;
+    padding-top:1em;
+    margin-bottom:0;
+}
+
+li .first-li {
+    margin-right: 1em;
+}
+
+li{
+    margin-left: 0.5em;
+    margin-right: 1em
+}
+
+/*logo*/
+#lin_logo{
+    width: 10em;
+    height:auto;
+}
+
+/*Footer CSS*/
+
+footer{
+    background-color: #2E034D;
+    padding:1em;
+    margin-left: -1%;
+    min-height:10em;
+}
+
+footer li a{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

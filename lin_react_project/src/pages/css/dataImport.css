@@ -1,0 +1,63 @@
+/*Code for the warning display button and positioning*/
+#z-hover{
+  position: absolute;
+    top:100%;
+    left:0%;
+    margin-top:8px;
+}
+#z-anclas{
+    position: relative;
+    max-height: 38px;
+}
+
+/*Displaying accepted file names*/
+.warning_div{
+    border: 2px solid #685094;
+    background-color: #bea1d6;
+    font-size: small;
+    width: 11em;
+    max-height: 20em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 2;
+}
+/*Custom slide bar in FireFox*/
+body .warning_div {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #e08c1d #965c0f;   /* scroll thumb and track */
+}
+
+/*Custom slide bar in Chrome, Edge and Safari*/
+.warning_div ::-webkit-scrollbar {
+    width: 3px;               /* width of the entire scrollbar */
+}
+
+.warning_div::-webkit-scrollbar-track {
+    background: #965c0f;        /* color of the tracking area */
+}
+
+.warning_div::-webkit-scrollbar-thumb {
+    background-color: #e08c1d;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid #965c0f;  /* creates padding around scroll thumb */
+}
+
+/*Adjusting white div*/
+#test .App-Holder {
+    padding: 0;
+}
+
+/*Code to customize file input*/
+/*Label acts as button now*/
+#updateFiles {
+    position:absolute;
+    top: -1000px;
+}
+
+.border-file{
+    border: 1px solid lightskyblue;
+    border-radius:7px;
+    width: 400px;
+}
+
+

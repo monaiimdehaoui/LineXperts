@@ -1,0 +1,11 @@
+cltId,groupId,cltIdentification,cltOfficialName,cltCommercialName,cltFirstName,cltLastName,cltAddress,cltCity,cltRegion,cltCountry,cltPhoneNo,cltCellNo,cltEmailAddr,cltStatus
+CLIENT-T1-468-465454,CORP TURJR-1-284648,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 1,CommercialName client T1,Adela,Adela,ADDRESS1,Mont-Joli,Quebec,Canada,+Test1,+Test1-C,Test1@mac.com,Activo
+CLIENT-T10-48-465454,CORP TURJR-4-428454,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 10,CommercialName client T10,Danny,Roman,ADDRESS2,New York,New York,United States,+Test2,+Test2-C,Test2@icloud.com,Activo
+CLIENT-T2-468-465454,CORP TURJR-3-246545,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 2,CommercialName client T2,Siya,Ramirez,ADDRESS3,Mont-Joli,Quebec,Canada,+Test3,NULL,Test3@gmail.com,Activo
+CLIENT-T3-468-465454,CORP TURJR-3-246545,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 3,CommercialName client T3,Ibrar,Nolan,ADDRESS4,Neguac,New Brunswick,Canada,+Test4,+Test4-C,Test4@me.com,Activo
+CLIENT-T4-468-465454,CORP TURJR-2-426844,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 4,CommercialName client T4,Sania,Kouma,ADDRESS5,Centreville,NB,Canada,+Test5,+Test5-C,Test5@me.com,Activo
+CLIENT-T5-468-465454,CORP TURJR-5-968689,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 5,CommercialName client T5,Sonny,Clifford,ADDRESS6,New York,New York,United States,+Test6,+Test6-C,Test6@aol.com,Activo
+CLIENT-T6-468-465454,CORP TURJR-8-145174,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 6,CommercialName client T6,Manisha,Cantrell,ADDRESS7,Astoria,New York,United States,+Test7,NULL,Test7@sbcglobal.net,Activo
+CLIENT-T7-468-465454,CORP TURJR-7-425415,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 7,CommercialName client T7,Fred,Esquivel,73 ADDRESS8,Bronx,New York,United States,+Test8,+Test8-C,Test8@sbcglobal.net,Activo
+CLIENT-T8-468-465454,CORP TURJR-10-20648,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 8,CommercialName client T8,Cheryl,Nicholls,ADDRESS9,Levittown,New York,United States,+Test9,+Test9-C,Test9@me.com,Activo
+CLIENT-T9-468-465454,CORP TURJR-1-284648,NIT- NUM. DE IDENTIF. TRIBUTARIA,OfficialName client 9,CommercialName client T9,Kiyan,Sims,ADDRESS10,West Babylon,New York,United States,+Test10,+Test10-C,Test10@icloud.com,Activo

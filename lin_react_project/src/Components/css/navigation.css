@@ -1,0 +1,49 @@
+/*Navigation CSS*/
+.nav-style{
+    margin-top: 0px;
+    margin-left: -1%;
+    background-color: #F7C485;
+}
+nav a:hover{
+    text-decoration: underline #e3ad6b double !important;
+    color:#fff7ed !important;
+}
+#collapsableBtn-CltContr{
+    color:white;
+}
+#collapsableBtn-WrkSer{
+    color:white;
+}
+#collapsableBtn-Report{
+    color:white;
+}
+/*DropDown links*/
+.active {
+    background-color: #d0b3ff !important;
+}
+.dropdown-item:focus{
+    background-color: #d0b3ff !important;
+}
+
+nav div a{
+    padding-left:8px !important;
+}
+
+/*Links in the nav dropdowns*/
+nav div div div div a{
+    color:black !important;
+}
+nav div div div div a:hover{
+    text-decoration: none !important;
+    color:black !important;
+}
+
+#nav-hr{
+    height: 15px;
+    width: 100%;
+    color: #f2b05e;
+    background-color: #f2b05e;
+    float:right;
+    padding:0;
+    margin:0;
+}

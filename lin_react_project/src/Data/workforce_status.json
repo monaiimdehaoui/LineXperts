@@ -1,0 +1,10 @@
+{
+  "wrk_status" : [
+    "En Labor",
+    "En Incapacidad",
+    "En Vacaciones",
+    "En Licencia no renumerada",
+    "En Licencia renumerada",
+    "En Retiro"
+  ]
+}

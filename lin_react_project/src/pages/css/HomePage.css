@@ -1,0 +1,10 @@
+/*Customizing a bit the home page sizing*/
+#menu-jumbo{
+    max-width:600px;
+    margin:auto;
+    text-align: center;
+}
+
+#appTitle{
+    font-family: 'Montserrat', sans-serif;
+}

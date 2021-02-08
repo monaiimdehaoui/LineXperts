@@ -1,0 +1,45 @@
+/*CSS for the Tabs, passed in the components*/
+.tab-list {  border-bottom: 1px solid #542360;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.tab-list-item {
+    color:#A335AF;
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+    background-color: white;
+    color: #542360;
+    border: solid #A335AF;
+    border-width: 10px 1px 0 1px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+
+
+/*.tab-list-red {  border-bottom: 1px solid red;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.tab-list-item-red {
+    color:red;
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active-red {
+    background-color: white;
+    color: darkred;
+    border: solid red;
+    border-width: 10px 1px 0 1px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}*/

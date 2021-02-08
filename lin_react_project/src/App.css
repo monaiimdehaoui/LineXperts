@@ -1,0 +1,316 @@
+/*CSS Main Document -
+All changes made here will be applied in all pages of the application*/
+
+/*White Container CSS*/
+.App {
+  text-align: center;
+}
+
+.App-Holder {
+  padding: 3em 8em 2em 8em;
+  background-color: white;
+  text-align: center;
+  margin:auto;
+  min-height: 600px;
+}
+
+/*Form Heading CSS*/
+.head-2{
+  text-align: left;
+  font-size: 40px;
+  margin-left:-40px;
+  color: #542360;
+  font-family: "Helvetica";
+}
+
+/*Alerts Boxes CSS*/
+.alert_div{
+  background-color: #ffd8d8;
+  border: 3px solid darkred;
+  border-radius:3px;
+  margin:auto;
+  padding:8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.no_result_div{
+  background-color: #ffd8d8;
+  border: 3px solid #ff5454;
+  border-radius:3px;
+  margin:auto;
+  padding:8px;
+  text-align: center;
+  max-width: 450px;
+}
+
+.success_div{
+  border: 3px solid forestgreen;
+  border-radius:3px;
+  margin:auto;
+  text-align: center;
+  color:white;
+  background-color: #98d162;
+}
+
+.alert_message{
+  color:red;
+  border-radius:3px;
+  font-size: 15px;
+  height:15px;
+  margin-left:10px;
+}
+
+.warning_message{
+  color:#542360;
+  font-size: 15px;
+  height:15px;
+  padding: 0;
+  margin: 0;
+}
+
+/*Button CSS*/
+.btn{
+  color:white !important;
+}
+.btn-grey{
+  background-color: white;
+  border-color: #a9b0ab;
+  color:#5a5c5a !important;
+}
+
+.btn-red
+{
+  background-color: #EF5625;
+  border-color: #d17d06;
+}
+
+.btn-orange
+{
+  background-color: #db5f07;
+  border-color:#a6561e;
+}
+
+.btn-yellow{
+  background-color: #f0900a;
+  border-color: #f2b05e;
+}
+
+.btn-purple{
+  background-color: #8a51c4;
+  border-color: #5b3780;
+}
+
+.btn-red:hover{
+  background-color: #b5401b;
+  border-color: #d17d06;
+}
+
+.btn-orange:hover{
+  background-color: #bd5104;
+  border-color:#a6561e;
+}
+.btn-yellow:hover{
+  background-color: #c7790c;
+  border-color: #f2b05e;
+}
+.btn-purple:hover{
+  background-color: #b173f0;
+  border-color: #5b3780;
+}
+
+.btn-grey:hover{
+  background-color: #a4aba4;
+  border-color: #a9b0ab;
+  color: white !important;
+}
+
+/*hr styling*/
+
+hr{
+  background-color: #c7790c;
+  height:2px;
+  width:90%;
+}
+
+/*Forms CSS*/
+
+.form-group{
+  margin-bottom: 0px !important;
+}
+
+textarea{
+  resize: none;
+}
+/*Collapsible CSS*/
+.collaps{
+  background-color: #670dba;
+  padding: 8px;
+  color:white;
+  border-radius:8px;
+}
+.outer_collaps{
+  background-color: #efe3fa;
+  border-radius: 8px;
+}
+/*Table CSS*/
+.table_results{
+  display:block;
+  margin: 30px auto 30px auto;
+  font-size: 15px !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+  max-height: 50em;
+  width: 100% !important;
+
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #e08c1d #965c0f;
+}
+.table td{
+  white-space: nowrap;
+  background-color: #f7f7f7;
+
+}
+
+.borderless td, .borderless th {
+  border: none !important;
+}
+
+/*Custom slide bar in Chrome, Edge and Safari*/
+.table_results ::-webkit-scrollbar {
+  width: 3px;               /* width of the entire scrollbar */
+}
+
+.table_results::-webkit-scrollbar-track {
+  background: #965c0f;        /* color of the tracking area */
+}
+
+.table_results::-webkit-scrollbar-thumb {
+  background-color: #e08c1d;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #965c0f;  /* creates padding around scroll thumb */
+}
+
+/*Client info from contract and addendums*/
+#client_info p{
+  padding: 0;
+  margin: 0;
+}
+
+#client_info{
+  padding: 8px;
+  background-color: #f2fbfc;
+  margin-bottom: 30px;
+}
+
+/*Customized Radio Buttons*/
+.control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control_indicator {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+  border: 0px solid #000000;
+}
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+  background: #cccccc;
+}
+
+.control input:checked ~ .control_indicator {
+  background: #d17d06;
+}
+.control input:disabled ~ .control_indicator {
+  background: #cdcdcd;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control_indicator:after {
+  box-sizing: unset;
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control_indicator:after {
+  display: block;
+}
+.control-radio .control_indicator {
+  border-radius: 50%;
+}
+
+.control-radio .control_indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  transition: background 250ms;
+}
+.control-radio input:disabled ~ .control_indicator:after {
+  background: #000000;
+}.control-radio .control_indicator::before {
+   content: '';
+   display: block;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 4.632rem;
+   height: 4.5rem;
+   margin-left: -1.3rem;
+   margin-top: -1.3rem;
+   background: #e6ad5b;
+   border-radius: 3rem;
+   opacity: 0.6;
+   z-index: 99999;
+   transform: scale(0);
+ }
+@keyframes s-ripple {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.01;
+    transform: scale(1);
+  }
+}
+@keyframes s-ripple-dup {
+  0% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+.control-radio input + .control_indicator::before {
+  animation: s-ripple 250ms ease-out;
+}
+.control-radio input:checked + .control_indicator::before {
+  animation-name: s-ripple-dup;
+}
+
