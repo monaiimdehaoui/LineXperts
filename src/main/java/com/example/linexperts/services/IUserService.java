@@ -13,7 +13,7 @@ public interface IUserService extends UserDetailsService {
 
     public LinexpertsUser getUser(String email);
 
-    public LinexpertsUser getUserById(String userId);
+    public LinexpertsUser getUserById(Integer userId);
 
     public LinexpertsUser updateUser(String userId, UserUpdateRequestModel user);
 

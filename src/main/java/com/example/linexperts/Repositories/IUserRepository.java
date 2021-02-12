@@ -10,5 +10,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IUserRepository extends CrudRepository<LinexpertsUser, String> {
     public Optional<LinexpertsUser> findUserByEmail(String email);
+    public LinexpertsUser findById(Integer id);
 
 }

@@ -86,10 +86,10 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public LinexpertsUser getUserById(String userId) {
-        LinexpertsUser userEntity = userRepository.findById(userId).get();
+    public LinexpertsUser getUserById(Integer userId) {
+        LinexpertsUser userEntity = this.userRepository.findById(userId);
         if (userEntity == null)
-            throw new UsernameNotFoundException(userId);
+            throw new UsernameNotFoundException(userId+"");
 
         return userEntity;
     }
